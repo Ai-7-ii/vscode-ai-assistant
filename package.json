@@ -1,0 +1,14 @@
+{
+  "name": "intelliflow",
+  "displayName": "IntelliFlow AI Assistant",
+  "version": "1.0.0",
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "intelliflow.openChat",
+        "title": "IntelliFlow: Open Chat"
+      }
+    ]
+  }
+}
