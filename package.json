@@ -1,15 +1,16 @@
 {
-  "name": "intelliflow",
-  "displayName": "IntelliFlow AI Assistant",
-  "version": "1.0.1",
-  "main": "./dist/extension.js",
-  "icon": "./assets/icon.png",
-  "contributes": {
-    "commands": [
-      {
-        "command": "intelliflow.openChat",
-        "title": "IntelliFlow: Open Chat"
-      }
-    ]
-  }
+    "name":  "intelliflow",
+    "displayName":  "IntelliFlow AI Assistant",
+    "version":  "1.0.2",
+    "main":  "./dist/extension.js",
+    "icon":  "./assets/icon.png",
+    "engines":  {
+                    "vscode":  "^1.85.0"
+                },
+    "contributes":  {
+                        "commands":  [
+                                         "@{command=intelliflow.openChat; title=IntelliFlow: Open Chat}"
+                                     ]
+                    },
+    "publisher":  "Ai-7-ii"
 }
